@@ -82,7 +82,7 @@ WorkNormal TmdNormalToWorkNormal(TmdNormal* tmdNormal) {
 }
 
 typedef struct __attribute((packed)) {
-	u8 olen, ilen;
+    u8 olen, ilen;
     u8 flag;
     u8 mode;
 } TmdPrimitiveHeader;
