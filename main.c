@@ -42,8 +42,8 @@ typedef struct __attribute((packed)) {
 } TmdObjectHeader;
 
 typedef struct __attribute((packed)) {
-	s16 x, y, z;
-	u16 _pad16;
+    s16 x, y, z;
+    u16 _pad16;
 } TmdVertex;
 
 typedef struct __attribute((packed)) {
